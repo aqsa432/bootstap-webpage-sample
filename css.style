@@ -3,7 +3,12 @@ body{
     color: #6c757d !important;
 }
 .bg-color{
-    background-color: #788a7c;
+    background-color: var(--theme-color);
+}
+:root
+{ 
+    --theme-color : #788a7c;
+    --heading-color : #6ed198;
 }
 .small-font{
     font-size: 14px;
@@ -77,10 +82,10 @@ body{
     background-image: url(images1/carousel-3.jpg);
 }
 .section-7{
-    background-color: #788a7c;
+    background-color: var(--theme-color)
 }
 .green-text{
-    color: #6ed198;
+    color: var(--heading-color);
 }
 .btn-sec-7{
     color: white;
@@ -98,7 +103,7 @@ body{
 }
 
 #section-9{
-    background-color: #788a7c;
+    background-color: var(--theme-color);
 }
 
 #fb-icon{
