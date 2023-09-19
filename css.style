@@ -9,7 +9,7 @@ body{
     font-size: 14px;
 }
 .nav-img{
-    background-image: url();
+    background-image: url(images1/nav-image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -25,13 +25,104 @@ body{
     background-color: white;
     color: #6c757d;
 }
-.btn-banner-1{
+.btn-sec-2{
     color: #6c757d;
     border: 1px solid #6c757d;
     padding: 5px 50px;
     background-color: white;
 }
-.btn-banner-2:hover{
+.btn-sec-2:hover{
     color: white;
     border: 1px solid #6c757d;
     background-color: #6c757d;
+}
+.section-3{
+    background-color: #788a7c;
+}
+.section-3 img{
+    width: 100px;
+}
+.section-3 h5{
+    color: #6ed198;
+}
+.section-3 a{
+    text-decoration: none;
+    opacity: 0.7;
+}
+.btn-sec-4{
+    color: #6c757d;
+    border: 1px solid #6c757d;
+    padding: 5px 0;
+    width: 350px;
+    background-color: white;
+}
+.btn-sec-4:hover{
+    color: white;
+    border: 1px solid #6c757d;
+    background-color: #6c757d;
+}
+.carousel-img{
+   height: 80vh;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.bg-img-1{
+    background-image: url(images1/carousel-1.jpg);
+}
+.bg-img-2{
+    background-image: url(images1/carousel-2.jpg);
+}
+.bg-img-3{
+    background-image: url(images1/carousel-3.jpg);
+}
+.section-7{
+    background-color: #788a7c;
+}
+.green-text{
+    color: #6ed198;
+}
+.btn-sec-7{
+    color: white;
+    border: 1px solid white;
+    padding: 5px 0;
+    width: 350px;
+    background-color: transparent;
+}
+.btn-sec-7:hover{
+    color: #6c757d;
+    border: 1px solid #6c757d;
+    padding: 5px 0;
+    width: 350px;
+    background-color: white;
+}
+
+#section-9{
+    background-color: #788a7c;
+}
+
+#fb-icon{
+width: 35px;
+height: 35px;
+background-color: transparent;
+border: 1.5px solid white;
+border-radius: 50%;
+color: white;
+font-size: 18px;
+}
+#section-9 input{
+    border: none !important;
+    border-radius: 0;
+}
+
+#section-9 textarea{
+    border: none !important;
+    border-radius: 0;
+    resize: none;
+}
+#section-9 button{
+    background-color: #6ed198;
+    color: white;
+    padding: 7px 30px;
+    border: none;
+}
